@@ -12,7 +12,7 @@ var path = require('path');
 var app = express();
 
 // all environments
-app.set('port', process.env.PORT || 80);
+app.set('port', process.env.PORT || 3000); //NEEDS TO BE 80 FOR HTML TO WORK
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(express.favicon());
@@ -35,9 +35,8 @@ app.get('/', function(req, res) {
 });
 
 //get for redesign of site
-app.get('/beta', function(req, res) {
-  res.render('../beta/index.html');
-});
+app.get('/beta', routes.index);
+//should acually try to use jade and layouts etc... looks fucking cool.
 
 app.get('/users', user.list);
 
