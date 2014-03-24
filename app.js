@@ -33,6 +33,12 @@ if ('development' == app.get('env')) {
 app.get('/', function(req, res) {
   res.render('../public/index.html');
 });
+
+//get for redesign of site
+app.get('/beta', function(req, res) {
+  res.render('../beta/index.html');
+});
+
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
