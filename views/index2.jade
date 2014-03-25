@@ -1,0 +1,47 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width', initial-scale=1.0)
+		meta(name='description', content="Stefan Dierauf's personal site")
+		meta(name='author' content="Stefan Dierauf")
+		title Stefan Dierauf
+		link(href='css/cosmo.min.css', rel='stylesheet')
+		link(rel='icon', href='favicon.png')
+
+	body
+		.container
+			.navbar
+				.navbar-default
+					.navbar-static-top
+						.navbar-header
+							button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+								span.icon-bar
+								span.icon-bar
+								span.icon-bar
+							a.navbar-brand(href='#') Stefan Dierauf
+						.navbar-collapse.collapse
+							ul
+								li
+									a(href='#me') Me
+								li
+									a(href='#code') Code
+								li
+									a(href='#work') Work
+								li
+									a(href='#fun') Fun
+							ul.nav.navbar-nav.navbar-right
+								li
+									a(href='http://nodejs.org', style='color:rgb(148,188,44)') Now running on NodeJS and Jade!
+			.row
+				.col-lg-10.col-lg-offset-1
+					.row
+						.col-lg-12
+							p#me(style='font-size:3em') Me
+						.col-lg-6
+							p Hey there! I'm Stefan
+							p
+								strong I've accepted an internship offer to work at
+									a(href='http://simplymeasured.com') Simply Measured
+									
+
