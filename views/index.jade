@@ -10,38 +10,48 @@ html(lang='en')
 		link(rel='icon', href='favicon.png')
 
 	body
-		.container
-			.navbar.navbar-default.navbar-static-top
-				.navbar-header
-					button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
-						span.icon-bar
-						span.icon-bar
-						span.icon-bar
-					a.navbar-brand(href='#') Stefan Dierauf
-				.navbar-collapse.collapse
-					ul
-						li
-							a(href='#me') Me
-						li
-							a(href='#code') Code
-						li
-							a(href='#work') Work
-						li
-							a(href='#fun') Fun
-					ul.nav.navbar-nav.navbar-right
-						li
-							a(href='http://nodejs.org', style='color:rgb(148,188,44)') Now running on NodeJS and Jade!
+		.navbar-wrapper
+			.container
+				.navbar.navbar-inverse.navbar-static-top
+					.container
+						.navbar-header
+							button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+								span.icon-bar
+								span.icon-bar
+								span.icon-bar
+							a.navbar-brand(href='#') Stefan Dierauf
+						.navbar-collapse.collapse
+							ul.nav.navbar-nav
+								li.active
+									a(href='#me') Me
+								li
+									a(href='#code') Code
+								li
+									a(href='#work') Work
+								li
+									a(href='#fun') Fun
+							ul.nav.navbar-nav.navbar-right
+								li
+									a(href='http://nodejs.org') Now running on NodeJS!
 		.row
-			.col-lg-10.col-lg-offset-1
-				.row
-					.col-lg-12
-						p#me(style='font-size:3em') Me
-					.col-lg-6
-						p Hey there! I'm Stefan
-						p
-							strong I've accepted an internship offer to work at 
-								a(href='http://simplymeasured.com') Simply Measured
-
+			.container
+				.col-lg-10.col-lg-offset-1
+					.row
+						.col-lg-12
+							p#me(style='font-size:3em') Me
+						.col-lg-6
+							p Hey there! I'm Stefan
+							p
+								strong I've accepted an internship offer to work at 
+									a(href='http://simplymeasured.com') Simply Measured 
+									| for the summer of 2014, and I couldnt be more excited!
+							p I'm a sophomore at University of Washington, class of 2016. I'm a Computer Science major, and I'm most interested in mobile and web development.
+							p I have fun at hackathons, with my most recent one being 
+								a(href='http://angelhack.com/#') AngelHack's 
+								a(hrew='http://blog.angelhack.com/day/2013/09/16') AppHack 
+								| where my team built an 
+								a(href='https://github.com/sdierauf/nametag') android app 
+								| that enables users to quickly swap social networks and contact information over bluetooth.
 
 									
 		script(src='js/jquery-1.11.0.min.js')
