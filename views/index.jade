@@ -1,171 +1,27 @@
 doctype html
 html(lang='en')
-	head
-		meta(charset='utf-8')
-		meta(name='viewport', content='width=device-width', initial-scale=1.0)
-		meta(name='description', content="Stefan Dierauf's personal site")
-		meta(name='author' content="Stefan Dierauf")
-		title Stefan Dierauf
-		link(href='css/bootstrap.min.css', rel='stylesheet')
-		link(rel='icon', href='favicon.png')
+	
+	include includes/head
 
 	body
-		.navbar-wrapper
-			.container
-				.navbar.navbar-inverse.navbar-static-top
-					.container
-						.navbar-header
-							button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
-								span.icon-bar
-								span.icon-bar
-								span.icon-bar
-							a.navbar-brand(href='#') Stefan Dierauf
-						.navbar-collapse.collapse
-							ul.nav.navbar-nav
-								li
-									a(href='#me') Me
-								li
-									a(href='#code') Code
-								li
-									a(href='#work') Work
-								li
-									a(href='#fun') Fun
-							ul.nav.navbar-nav.navbar-right
-								li
-									a(href='http://nodejs.org') Now running on NodeJS! Composed in Jade
+		include includes/navbar
 		.row
 			.container
 				.col-lg-10.col-lg-offset-1
-					.row
-						.col-lg-12
-							p#me(style='font-size:3em') Me
-					.row
-						.col-lg-6
-							p Hey there! I'm Stefan
-							p
-								strong I've accepted an internship offer to work at 
-									a(href='http://simplymeasured.com') Simply Measured 
-									| for the summer of 2014, and I couldnt be more excited!
-							p I'm a sophomore at University of Washington, class of 2016. I'm a Computer Science major, and I'm most interested in mobile and web development.
-							p I have fun at hackathons, with my most recent one being 
-								a(href='http://angelhack.com/#') AngelHack's 
-								a(hrew='http://blog.angelhack.com/day/2013/09/16') AppHack 
-								| where my team built an 
-								a(href='https://github.com/sdierauf/nametag') android app 
-								| that enables users to quickly swap social networks and contact information over bluetooth.
-							p I've previously attended: 
-							ul
-								li
-									p
-										a(href='http://www.outforundergrad.org') Out 4 Undergrad's
-									| hour-long closing hackathon, where my team and I came up with a service called NameTag, an effortless way for eventgoers to connect with others at the event
-								li
-									p
-										a(href='http://battlehack.org/seattle/') PayPal's Battle Hack Seattle 
-										| where I fell in love with Javascript and related libraries such as
-										a(href='http://knockoutjs.com/') KnockoutJS 
-										| and 
-										a(href='http://getbootstrap.com/') Bootstrap 
-								li
-									p The UW engineering community hackathon, where I took third place in the highest coding skill tier.
-							p I love learning languages, and I'm partially fluent in Swedish and Spanish.
-						.col-lg-6
-							//photo goes here
-					.row
-						.col-lg-10.col-lg-offset-1
-							hr
-					.row
-						.col-lg-12
-							p#code(style='font-size:3em') Code
-						.col-lg-6
-							p I'm now 
-								strong finally 
-								| using github. Feel free to 
-								a(href='https://github.com/sdierauf') check me out! 
-							p My two 'top' languages are Java and Javascript, and I'm currently learning Objective-C and C. I'm acquainted with  Ruby, Python, and C#, but we're not best friends (yet).
-							p I tend to make little webapps for simplifying my life and the life of my friends and coworkers. To the right are links to different tools I've made that I actually consider useful.
-							p I'm currently working on getting better at Javascript (this site is running on NodeJS!)
-						.col-lg-4.col-lg-offset-2
-							p
-								strong Useful Things:
-								//rehost over here you lazy fuck
-							ul
-								li
-									a(href='https://github.com/sdierauf/StefChat') StefChat
-									| , a SnapChat clone (iOS)
-								li
-									a(href='https://github.com/sdierauf/nametag') NameTag 
-									| (android)
-								li
-									a(href='http://stefan.dierauf.com/surplusify.html') Surplusifier
-								li
-									a(href='http://stefan.dierauf.com/bsifier.html') Jargon Generator
-								li
-									a(href='http://students.washington.edu/sdierauf/life.jar') Conway's game of life
-							p
-								strong Not So Useful Things:
-							ul 
-								//fix when not lazy
-								li Stupid primes algorithm
-								li search-as-you-type
-								li Math 126 homework solver
-					.row
-						.col-lg-10.col-lg-offset-1
-							hr
-					.row
-						.col-lg-12
-							p#work(style='font-size:3em') Work
-							//could use a rewrite
-						.col-lg-6
-							p
-								strong I've accepted an internship offer to work at 
-									a(href='http://simplymeasured.com') Simply Measured 
-									| for the summer of 2014, and I couldnt be more excited!
-							p I currently work as technical support staff for the
-								a(href='http://www.cs.washington.edu') best department in the world. 
-							p I've always been 'that guy' who fixes everyone else's computers, so I sort of naturally fell into working in IT through high school. On arriving at UW, I was deemed cool enough to work in support for the computer science department, and it's one of the best jobs I've ever had.
-							p I also help build and maintain the UW CSE website.
-						.col-lg-6
-							p image placeholder
-						.col-lg-6
-							p I also volunteer to teach high school kids how to code. I work and volunteer for 
-								a(href='http://www.cs.washington.edu/outreach/k12/') DawgBytes 
-								| , UW CSE's outreach program. We run a number of individual events during the year for middle and high school students, including various programming competitions and open house events. Every summer we have programming summer camps where students can learn how to program in Java and make android apps.
-						.col-lg-6
-							p Image placeholder.
-					.row
-						.col-lg-10.col-lg-offset-1
-							hr
-					.row
-						.col-lg-12
-							p#fun(style='font-size:3em') Fun
-						.col-lg-12
-							p I like 
-								a(href='http://hey.dierauf.com') funny things 
-							p I'm not as much of a gamer as I used to be, but the one thing I can't seem to stop playing is League of Legends. If you're looking for a buddy to play with, please send me an email.
-							p I also have a 
-								a(href='http://steamcommunity.com/id/lordofswag') Steam 
-								| account. 
-					.row
-						.col-lg-10.col-lg-offset-1
-							hr
-					.row
-						.col-lg-12
-							p.text-center
-								a(href='#') Résumé 
-								| &bull; 
-								a(href='#') Github 
-								| &bull; 
-								a(href='#') Twitter 
-								| &bull; 
-								a(href='#') Facebook 
-								| &bull; 
-								a(href='#') Instagram 
-								| &bull; 
-								a(href='#') Steam 
-								| &bull; 
-								a(href='mailto:sdierauf@gmail.com') stefan@dierauf.com 
-								| &bull; © Stefan Dierauf 2013
+					include includes/me
+					include includes/horizontalBar
+
+					include includes/code
+					include includes/horizontalBar
+
+					include includes/work
+					include includes/horizontalBar
+
+					include includes/fun
+					include includes/horizontalBar
+
+					
+					include includes/footer
 
 
 		script(src='js/jquery-1.11.0.min.js')
