@@ -34,6 +34,14 @@ app.get('/', function(req, res) {
   res.render('../public/index.html');
 });
 
+app.get('/files', function(req, res){
+	res.render('../views/files.jade');
+});
+
+app.get('/files/', function(req, res){
+	res.render('../views/files.jade');
+});
+
 //get for redesign of site
 app.get('/beta', routes.index);
 //should acually try to use jade and layouts etc... looks fucking cool.
