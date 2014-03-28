@@ -40,6 +40,14 @@ app.get('/beta', routes.index);
 
 app.get('/users', user.list);
 
+app.get('/files', function(req, res){
+	res.render('../views/files.jade');
+});
+
+app.get('/files/', function(req, res){
+	res.render('../views/files.jade');
+});
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
