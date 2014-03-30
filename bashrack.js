@@ -1,3 +1,4 @@
+//all that's left to do is connect to sdierauf.sexy and spin up this program!
 var net = require('net');
 
 store = 'Im stored in store';
