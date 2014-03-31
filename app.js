@@ -78,6 +78,6 @@ net.createServer(function (socket) {
 console.log("servers started on 1111 and 2222");
 
 app.get('/bashrack', function(req, res) {
-	res.send(store);
+	res.send('<pre>' + store + '</pre>');
 });
 
