@@ -10,6 +10,7 @@ var http = require('http');
 var path = require('path');
 
 var app = express();
+app.use(express.compress());
 
 // all environments
 app.set('port', process.env.PORT || 80); //NEEDS TO BE 80 FOR HTML TO WORK
