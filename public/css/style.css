@@ -777,4 +777,17 @@ footer .logo {
     
 }
 
+a {
+	color: white; 
+	text-decoration: underline
+}
+
+.section-color-2 a {
+	color: black; 
+}
+        	
+.spaced-list li {
+	margin-bottom: 0.5em;
+}
+
 /* END MEDIA QUERIES */
