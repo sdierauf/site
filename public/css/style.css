@@ -779,7 +779,7 @@ footer .logo {
 
 a {
 	color: white; 
-	text-decoration: underline
+	text-decoration: underline;
 }
 
 .section-color-2 a {
@@ -788,6 +788,11 @@ a {
         	
 .spaced-list li {
 	margin-bottom: 0.5em;
+}
+
+.spaced-list {
+	padding-left: 1em;
+	
 }
 
 /* END MEDIA QUERIES */
