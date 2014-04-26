@@ -9,7 +9,9 @@ var debugoutput = document.getElementById('output');
 var header = document.getElementById('header');
 var tryagain = document.getElementById('playagain');
 
-
+Array.prototype.randomElement = function() {
+  return this[Math.floor(Math.random() * this.length)];
+};
 
 function HangmanManager(numguesses, thelength) {
   var curDictionary = stripDict(dictionary, thelength);
@@ -86,13 +88,17 @@ if (count > 0) {
   }
   
   var redraw = function() {
-    console.log(guesscount);
-    guessesbox.innerHTML = getGuesses();
-    result.innerHTML = activePattern;
-    if (guesscount == 0) {
+  	if (guesscount == 0) {
+    	if (activePattern.indexOf("_") > -1) {
+	    	activePattern = curDictionary.randomElement();
+    	}
       result.classList.add("text-danger");
       header.innerHTML = "You lost!";
     }
+    console.log(guesscount);
+    guessesbox.innerHTML = getGuesses();
+    result.innerHTML = activePattern;
+    
     if (debug.checked == true) {
       debugoutput.innerHTML = curDictionary;
     } else {
