@@ -11,7 +11,6 @@ var tryagain = document.getElementById('playagain');
 
 
 
-
 function HangmanManager(numguesses, thelength) {
   var curDictionary = stripDict(dictionary, thelength);
   
@@ -26,7 +25,7 @@ function HangmanManager(numguesses, thelength) {
     }
     return string;
   }
-  //what the fuck
+  //I don't understand js scope ;-;
   var getGuesses = function() {
     var string = "";
     for (var i = 0; i < guesses.length; i++) {
@@ -174,24 +173,38 @@ debug.onclick = function() {
   hangman.callRedraw();
 }
 
+window.onkeypress = function(event) {
+  if (event.keyCode == 13) {
+    submit.onclick();
+  }
+}
+
 
 submit.onclick = function() {
-  if (guesschar.value.length == 1) {
-    if (hangman.getGuesses().indexOf(guesschar.value) == -1) {
-      alertbox.innerHTML = "";
-      hangman.play(guesschar.value);
-    } else {
-      alertbox.innerHTML = "You've already guessed that letter!";
-    }
+  if (hangman.getGuessCount() == 0) {
+    location.reload();
   } else {
-    alertbox.innerHTML = "You forgot to enter a letter!";
+    if (guesschar.value.length == 1) {
+      if (hangman.getGuesses().indexOf(guesschar.value.toLowerCase()) == -1) {
+        alertbox.innerHTML = "";
+        hangman.play(guesschar.value);
+      } else {
+        alertbox.innerHTML = "You've already guessed that letter!";
+      }
+    } else {
+      alertbox.innerHTML = "You forgot to enter a letter!";
+    }
+    guesschar.value = "";
+    guesschar.focus();
   }
-  guesschar.value = "";
-  guesschar.focus();
 }
 
 tryagain.onclick = function() {
   location.reload();
+}
+
+window.onload = function() {
+  guesschar.focus();
 }
 
 //console.log(hangman.words());
