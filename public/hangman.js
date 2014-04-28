@@ -35,6 +35,7 @@ function HangmanManager(numguesses, thelength) {
     }
     return string;
   }
+  
   this.callRedraw = function() {
     redraw();
   }
@@ -193,7 +194,7 @@ submit.onclick = function() {
     if (guesschar.value.length == 1) {
       if (hangman.getGuesses().indexOf(guesschar.value.toLowerCase()) == -1) {
         alertbox.innerHTML = "";
-        hangman.play(guesschar.value);
+        hangman.play(guesschar.value.toLowerCase());
       } else {
         alertbox.innerHTML = "You've already guessed that letter!";
       }

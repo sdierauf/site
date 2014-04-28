@@ -53,6 +53,8 @@ app.get('/beta', routes.index);
 
 app.get('/users', user.list);
 
+app.get(/^([^.]+)$/, function (req, res) { res.redirect(req.routes.path + '.html');});
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
