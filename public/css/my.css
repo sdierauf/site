@@ -1,5 +1,6 @@
 #profile {
-  margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 body {
@@ -27,16 +28,15 @@ a {
 }
 
 #meblock {
-  padding-top: 1em;
-  background-color: #F07444;
+  background-color: #E06C40;
 }
 
 #codeblock {
-  background-color: #F3CF5B;
+  background-color: #E3C155;
 }
 
 #workblock {
-  background-color: #67BFA7;
+  background-color: #5EAD98;
 }
 
 #funblock {
