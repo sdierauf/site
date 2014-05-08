@@ -1,0 +1,62 @@
+#profile {
+  margin-bottom: 2em;
+}
+
+body {
+  font-size: 13pt;
+}
+
+.custom-container {
+  width:100%;
+}
+
+.rowfull, .row {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-right: 0;
+  margin-left: 0;
+  color: white;
+}
+
+a {
+  color: aqua;
+}
+
+.special-case {
+  padding-top: 0em;
+}
+
+#meblock {
+  padding-top: 1em;
+  background-color: #F07444;
+}
+
+#codeblock {
+  background-color: #F3CF5B;
+}
+
+#workblock {
+  background-color: #67BFA7;
+}
+
+#funblock {
+  background-color: #136972;
+}
+
+#linksblock {
+  background-color: #0F1C28;
+}
+
+.mahheader {
+  margin-bottom: 0;
+  font-size: 14pt;
+}
+
+.name {
+  font-size: 20pt;
+}
+
+.bodypic {
+  width: 400px;
+  vertical-align: right;
+}
