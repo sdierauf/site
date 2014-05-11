@@ -7,6 +7,7 @@
     <meta name="author" content="Stefan Diearuf">
     <title>Stefan Dierauf</title>
     <link href="css/cosmo.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="css/my.css" rel="stylesheet">
     <link rel="icon" href="favicon.png">
   </head>
@@ -34,28 +35,46 @@
     <div class="custom-container">
       <div id="meblock" class="row rowfull">
         <div class="container">
-         <!--  <div class="col-lg-10 col-lg-offset-1"> -->
+         <!--  <div class="col-md-10 col-md-offset-1"> -->
             
-            <div class="col-lg-6">
+            <div class="col-md-6" id="profile">
               <!-- <div class="row"> -->
-                <img id="profile" src="img/fbselfie_s.jpg" title="O4U conference at Facebook HQ. I'm in the middle" class="img-thumbnail img-circle">
+                <img src="img/fbselfie_s.jpg" title="O4U conference at Facebook HQ. I'm in the middle" class="img-thumbnail img-circle">
               <!-- </div> -->
             </div>
-            <div class="col-lg-6">
-              <p id="me" style="font-size:3em">Me</p>
-            	<p>Hey there! I'm Stefan.</p>
-            	<p><strong>I've accepted an internship offer to work at <a href="http://simplymeasured.com/">Simply Measured</a> for the summer of 2014, and I couldn't be more excited!</strong></p>
-              <p>I'm a sophomore at University of Washington, class of 2016. I'm a Computer Science major, and I'm most interested in mobile and web development.</p>
-              <p>I have fun at hackathons, with my most recent one being <a href="http://angelhack.com/#">AngelHack's</a> <a href="http://blog.angelhack.com/day/2013/09/16">AppHack</a>, where my team <a href="https://github.com/sdierauf/nametag">built an android app</a> that enables users to quickly swap social networks and contact information over bluetooth.</p>
-              <p>I've previously attended: </p> 
-              <ul>
-              <li><p><a href="http://www.outforundergrad.org">Out 4 Undergrad's</a> hour-long closing hackathon, where my team and I came up with a service called NameTag, an effortless way for eventgoers to connect with others at the event.</p>
-              </li>
-              <li><p><a href="http://battlehack.org/seattle/"><!--make this expand out to a picture eventually?-->Paypal's Battle Hack Seattle</a>, where I fell in love with Javascript and related libraries such as <a href="http://knockoutjs.com/">KnockoutJS</a>, and <a href="http://getbootstrap.com/">Bootstrap</a>.</p>
-              </li>
-              <li>The UW engineering community hackathon, where I took third place in the highest coding skill tier.</li>
-              </ul>
-              <p>I love learning languages, and I'm partially fluent in Swedish and Spanish.</p>
+            <div class="col-md-6">
+              <h1 id="me"><strong>Me</strong></h1>
+			  <p>Hey there! I'm Stefan.</p>
+              <p>I’m an undergrad at the University of Washington, majoring in <a href="http://www.cs.washington.edu">Computer Science</a>. I love hackathons, web development, and reading tech news. Most of my side projects revolve around exploring new languages and making my friends laugh.</p>
+              <p>I currently work for UW CSE’s IT department, and I will be <strong>interning at <a href="http://simplymeasured.com">Simply Measured this summer!</a></strong></p>
+              <p>I also love learning (spoken) languages, and I am partially fluent in swedish and spanish.</p>
+              <div class="social">
+          			<ul class="list-inline">
+          			  <li>
+          			    <a href="files/resume.pdf" role="button" target="_blank" class="btn-social" title="Résumé"><i class="fa fa-book fa-3x"></i>
+          			    </a>
+          			  </li>
+          			  <li>
+          			    <a href="https://github.com/sdierauf" role="button" target="_blank" class="btn-social" title="Github"><i class="fa fa-github fa-3x"></i></a>
+          			  </li>
+          			  <li>
+          			    <a href="https://twitter.com/sdierauf" role="button" target="_blank" class="btn-social" title="Twitter"><i class="fa fa-twitter fa-3x"></i>
+          			    </a>
+          			  </li>
+          			  <li>
+          			    <a href="https://www.facebook.com/therealsdierauf" role="button" target="_blank" class="btn-social" title="Facebook"><i class="fa fa-facebook fa-3x"></i></a>
+          			  </li>
+          			  <li>
+          			    <a href="http://instagram.com/sdierauf" role="button" target="_blank" class="btn-social" title="Instagram"><i class="fa fa-instagram fa-3x"></i>
+          			    </a>
+          			  </li>
+                  <li>
+                    <a href="mailto:sdierauf@gmail.com" role="button" target="_blank" class="btn-social btn-email">
+                      <i class="fa fa-envelope-o fa-3x"></i>
+                    </a>
+                  </li>
+          			</ul>
+              </div>
             </div>
           <!-- </div> -->
         </div>
@@ -63,19 +82,57 @@
       
       <div id="codeblock" class="row rowfull">
         <div class="container">
-          <!-- <div class="col-lg-10 col-lg-offset-1"> -->
-            <div class="col-lg-12">
-              <p id="code" style="font-size:3em">Code</p>
+          <!-- <div class="col-md-10 col-md-offset-1"> -->
+            <div class="col-md-12">
+              <h1 id="code"><strong>Code</strong></h1>
             </div>
-            <div class="col-lg-6">
+             <div class="col-md-6">
+              <p>My two 'top' languages are Java and Javascript, and I'm currently learning Objective-C and C. I'm acquainted with  Ruby, Python, and C#, but we're not best friends (yet).</p>
+              <p>I tend to make little webapps for simplifying my life and the life of my friends and coworkers. To the right are links to different tools I've made that I actually consider useful (and more that I don't consider useful).</p>
+              <p>I'm currently working on getting better at JavaScript and Objective-C.</p>
+              
+              <p><strong>I love hackathons, as they force me to learn a lot of new stuff really fast. I've previously attended:</strong></p>
+              <dl>
+                <dt>Angelhack's Apphack</dt>
+                <dd>where we built an android app that lets users swap social network information over bluetooth quickly.</dd>
+                <dt>Out 4 Undergrad’s closing hackathon</dt>
+                <dd>where we designed a site like eventbrite that would also help you connect with people at the event.</dd>
+                <dt>PayPal’s BattleHack Seattle</dt>
+                <dd>where I fell in love with javascript and Bootstrap.</dd>
+                <dt>The UW engineering community hackathon</dt>
+                <dd>where I took third place in the highest coding skill tier.</dd>
+              </dl>
+              
+            </div>
+            <div class="col-md-6">
+              <p><strong>I host most of my projects on github. Here are some of my favorites:</strong><p>
+              <dl>
+                <dt><a href="https://github.com/sdierauf/StefChat">StefChat</a></dt>
+                <dd>a snapchat clone for iOS I wrote in a weekend using parse.</dd>
+                <dt><a href="https://github.com/sdierauf/nametag">NameTag</a></dt>
+                <dd>an android app that lets you share contact information over bluetooth quickly. Built for Angelhack Seattle 2013</dd>
+                <dt><a href="https://github.com/sdierauf/site">stfn.me/sdierauf.sexy/stefan.dierauf.com</a></dt>
+                <dd>the code for this site (now running on the MEAN stack)</dd>
+                <dt><a href="https://github.com/sdierauf/Mr-Nice-Hangman">Mr. Nice Hangman</a></dt>
+                <dd>a javascript/bootstrap reimplementation of EvilHangman (<a href="/hangman">go ahead, try to beat it</a>).</dd>
+                <dt><a href="https://github.com/sdierauf/surplusifier">Surplusifier</a></dt>
+                <dd>a simple tool I built after getting frustrated with some of CSE IT’s own internal tools.</dd>
+                <dt><a href="https://github.com/sdierauf/bsifier">Engineering Jargon Generator</a></dt>
+                <dd>a jargon generator slapped together after one too many linear algebra problems.</dd>
+              </dl>
+              
+            </div>
+           
+           <!--
+ <div class="col-md-6">
               <p>I'm now <strong>finally</strong> using github. Feel free to <a href="https://github.com/sdierauf">check me out!</a></p> 
               <p>My two 'top' languages are Java and Javascript, and I'm currently learning Objective-C and C. I'm acquainted with  Ruby, Python, and C#, but we're not best friends (yet).</p>
               <p>I tend to make little webapps for simplifying my life and the life of my friends and coworkers. To the right are links to different tools I've made that I actually consider useful (and more that I don't consider useful).</p>
               <p>I'm currently working on getting better at JavaScript and Objective-C.</p>
             </div>
-            <div class="col-lg-4 col-lg-offset-2">
+            <div class="col-md-4 col-md-offset-2">
             <p><strong>Useful Things:</strong></p>
-              <ul><!--rehost these over here eventually you lazy fuck-->
+              <ul>
                 <li><a href="https://github.com/sdierauf/StefChat">Stefchat</a>, a SnapChat clone (iOS)</li>
                 <li><a href="https://github.com/sdierauf/nametag">NameTag</a> (android)</li>
                 <li><a href="surplusify.html">Surplusifier</a></li>
@@ -90,20 +147,21 @@
                 <li><a href="http://students.washington.edu/sdierauf/stuff/DistanceFormula.java">Math 126 homework solver</a></li>
               </ul>
             </div>
+-->
           <!-- </div> -->
         </div>
       </div>
       
       <div id="workblock" class="row rowfull">
         <div class="container">
-          <div class="col-lg-12">
+          <div class="col-md-12">
             <p id="work" style="font-size:3em">Work</p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <img src="img/office.jpg" class="img-thumbnail bodypic" alt="That's not me in the picture btw">
           </div>
             <br />
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <p>I've accepted a internship offer to work at <a href="http://simplymeasured.com/">Simply Measured</a> for the summer of 2014, and I couldn't be more excited! I'm not 100% sure of what part of the stack I'll be working on, but it will be Java backend or Javascript frontend most likely.</p>
             <p>I work as technical support staff for the <a href="http://www.cs.washington.edu">best department in the world</a>.</p>
             <p>I've always been 'that guy' who fixes everyone else's computers, so I sort of naturally fell into working in IT through high school. On arriving at UW, I was deemed cool enough to work in support for the computer science department, and it's one of the best jobs I've ever had.</p>
@@ -114,11 +172,11 @@
       
       <div id="workblock" class="row rowfull special-case">
         <div class="container">
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <p>I also volunteer to teach high school kids how to code. I work and volunteer for <a href="http://www.cs.washington.edu/outreach/k12/">DawgBytes</a>, UW CSE's outreach program. We run a number of individual events during the year for middle and high school students, including various programming competitions and open house events. Every summer we have programming summer camps where students can learn how to program in Java and make android apps.</p>
           </div>
           <br />
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <img src="img/teaching.jpg" class="img-thumbnail bodypic">
           </div>
           <br />
@@ -127,10 +185,10 @@
       
       <div id="funblock" class="row rowfull">
         <div class="container">
-          <div class="col-lg-12">
+          <div class="col-md-12">
             <p id="fun" style="font-size:3em">Fun</p>
           </div>
-          <div class="col-lg-12">
+          <div class="col-md-12">
             <p>I like <a href="http://hey.dierauf.com">funny things</a></p>
             <p>I'm not as much of a gamer as I used to be, but the one thing I can't seem to stop playing is League of Legends. If you're looking for a buddy to play with, please send me an email.</p>
             <p>I also have a <a href="http://steamcommunity.com/id/lordofswag">Steam</a> account.</p>
@@ -139,8 +197,8 @@
       </div>
       
       <div id="linksblock" class="row rowfull">
-        <div class="col-lg-12">
-            <p class="text-center"><a href="files/resume.pdf">Résumé</a> &bull; <a href="https://github.com/sdierauf">Github</a> &bull; <a href="https://twitter.com/sdierauf">Twitter</a>  &bull;  <a href="https://www.facebook.com/therealsdierauf">Facebook</a>  &bull;  <a href="http://instagram.com/sdierauf">Instagram</a>  &bull;  <a href="http://steamcommunity.com/id/lordofswag">Steam</a>  &bull;  <a href="mailto:sdierauf@gmail.com">stefan@dierauf.com</a>  &bull;  © Stefan Dierauf 2013</p>
+        <div class="col-md-12">
+            <p class="text-center name">© Stefan Dierauf 2014</p>
           </div>
         </div>
       </div>

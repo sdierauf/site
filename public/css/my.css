@@ -1,14 +1,21 @@
 #profile {
+  text-align: center;
   margin-top: 2em;
   margin-bottom: 1em;
 }
 
 body {
-  font-size: 13pt;
+  font-size: 12pt;
+  /* -webkit-text-stroke: 0.35px !important; */
 }
 
 .custom-container {
   width:100%;
+}
+
+.social {
+  margin-top: 3em;
+  text-align: center;
 }
 
 .rowfull, .row {
@@ -19,32 +26,43 @@ body {
   color: white;
 }
 
-a {
-  color: aqua;
+a, name {
+  color: #ffffff !important;
+  text-decoration: underline;
 }
+
+a:hover {
+  color: #07DEFF !important;
+}
+
+dt a {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
 
 .special-case {
   padding-top: 0em;
 }
 
 #meblock {
-  background-color: #30a1c3;
+  background-color: #003B80;
 }
 
 #codeblock {
-  background-color: #f0c73f;
+  background-color: #005AC1;
 }
 
 #workblock {
-  background-color: #F15F13;
+  background-color: #730C02;
 }
 
 #funblock {
-  background-color: #C3370D;
+  background-color: #A60303;
 }
 
 #linksblock {
-  background-color: #3D1613;
+  background-color: #360101;
 }
 
 .mahheader {
@@ -54,10 +72,14 @@ a {
 
 .name {
   font-size: 20pt;
-  color: #FF6514 !important;
+  /*color: #FFF668 !important;*/
 }
 
 .bodypic {
 
   vertical-align: right;
+}
+
+dt {
+  margin-top: 1em;
 }
