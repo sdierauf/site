@@ -28,23 +28,23 @@ a {
 }
 
 #meblock {
-  background-color: #E06C40;
+  background-color: #30a1c3;
 }
 
 #codeblock {
-  background-color: #E3C155;
+  background-color: #f0c73f;
 }
 
 #workblock {
-  background-color: #5EAD98;
+  background-color: #F15F13;
 }
 
 #funblock {
-  background-color: #136972;
+  background-color: #C3370D;
 }
 
 #linksblock {
-  background-color: #0F1C28;
+  background-color: #3D1613;
 }
 
 .mahheader {
@@ -54,9 +54,10 @@ a {
 
 .name {
   font-size: 20pt;
+  color: #FF6514 !important;
 }
 
 .bodypic {
-  width: 400px;
+
   vertical-align: right;
 }
