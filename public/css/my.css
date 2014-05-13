@@ -55,23 +55,23 @@ dt a {
 }
 
 #meblock {
-  background-color: #57385C;
+  background-color: #382C5A;
 }
 
 #codeblock {
-  background-color: #A75265;
+  background-color: #533271;
 }
 
 #workblock {
-  background-color: #EC7263;
+  background-color: #2D3D67;
 }
 
 #funblock {
-  background-color: #FE9E54;
+  background-color: #5C2D67;
 }
 
 #linksblock {
-  background-color: #FFBA49;
+  background-color: #323271;
 }
 
 .mahheader {
@@ -81,7 +81,7 @@ dt a {
 
 .name {
   font-size: 20pt;
-  /*color: #FFF668 !important;*/
+  vertical-align: -webkit-baseline-middle;
 }
 
 .bodypic {
@@ -95,4 +95,27 @@ dt {
 
 .toplinks a {
   text-decoration: none !important;
+}
+
+h4 {
+  line-height: normal;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+
+#codeblock div div {
+  margin-bottom: 3em !important;
+}
+
+#hackathons h4, #github h4 { 
+  margin-top: 0;
+}
+
+.svbtle {
+  font-size: 11pt;
+  color: #c9c9c9;
 }

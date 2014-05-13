@@ -1,0 +1,35 @@
+Hey there! I’m Stefan.
+
+I’m an undergrad at the University of Washington, majoring in Computer Science. I love hackathons, web development, and reading tech news. Most of my side projects revolve around exploring new languages and making my friends laugh. 
+
+I currently work for UW CSE’s IT department, and I will be interning at Simply Measured this summer. 
+
+I also love learning (spoken) languages, and I am partially fluent in swedish and spanish.
+
+Social media links
+
+
+
+I host most of my projects on github. Here are some of my favorites:
+
+StefChat, a snapchat clone for iOS I wrote in a weekend using parse.
+
+NameTag, an android app that lets you share contact information over bluetooth quickly. //built for AngelHack Seattle 2013
+
+stfn.me/sdierauf.sexy/stefan.dierauf.com, the code for this site (now running on the MEAN stack)
+
+Mr. Nice Hangman, a javascript/bootstrap reimplementation of EvilHangman (go ahead, try to beat it).
+
+Surplusifier, a simple tool I built after getting frustrated with some of CSE IT’s own internal tools.
+
+Engineering Jargon Generator, a jargon generator slapped together after one too many linear algebra problems. 
+
+I love hackathons, as they force me to learn a lot of new stuff really fast. I’ve previously attended: 
+
+Angelhack’s Apphack, where we built an android app that lets users swap social network information over bluetooth quickly. 
+
+Out 4 Undergrad’s closing hackathon, where we designed a site like eventbrite that would also help you connect with people at the event.
+
+PayPal’s BattleHack Seattle, where I fell in love with javascript and Bootstrap.
+
+The UW engineering community hackathon, where I took third place in the highest coding skill tier. 
