@@ -12,12 +12,13 @@ module.exports = function(app){
 
 	// Homepage
 	app.get('/', function(req, res){
+	  req.id = Math.floor(Math.random() * 1000000000);
 
 		// Find all photos
 		photos.find({}, function(err, all_photos){
 
 			// Find the current user
-			users.find({ip: req.ip}, function(err, u){
+			users.find({id: req.id}, function(err, u){
 
 				var voted_on = [];
 
