@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/sdierauf
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://stfn.me
+  * I am sdierauf (https://keybase.io/sdierauf) on keybase.
+  * I have a public key with fingerprint 353F 0AD1 F895 1AF0 8BBB  AE6E 7B50 695C D377 9C23
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "353f0ad1f8951af08bbbae6e7b50695cd3779c23",
+            "host": "keybase.io",
+            "key_id": "7b50695cd3779c23",
+            "uid": "175654c82cf819aa725496f9851ae100",
+            "username": "sdierauf"
+        },
+        "service": {
+            "hostname": "stfn.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1401233701,
+    "expire_in": 157680000,
+    "prev": "6de384b58ad617170fcd8141e696435800549a70e3fb3a5d95d27b406fdb6f2c",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.17
+Comment: https://keybase.io/crypto
+
+yMHiAnicbZFbSFRbHMb3aN4mrFQoncLObEaJmmb2/TKgoWQvJtgkRNZh2Je1xkWd
+vac9e8YzDobikciQCnoRii5QPZhiJ63AQDEzrB5CMoqj5yVfJKkHUWiycG3Jt9bL
+Wutbv+//rT//ycJswu1KHg2kqgj40PV6fClBHO/2VqRJ1dRTZChNngEbG0RGFFgx
+Cxk2GSJZnoWUotNQknlagZSkqqoCBCCqPCXIvKazoihrDEv6yRYz7jhwGVWJgwAy
+sYYvEaRj9Td8YuOBFnmB5zSJ0aBEy4oiMjwnC1CWcBygKcoB48AylL8ApuM6ApaS
+gGS7n8RqEmlYTW9EbxI2NAL45CdjlmmbmnkWiy22HQs5HjsVc6BWoEZ+2SMqMnTc
+MjYkgRVHpkGGaExqNnLq0RxFMywrUrSfBH/HkAUiyCF4UZAovJwYkMQlBR2wEqfy
+kqILtEiLFNR0ieZoIMgCx/IYxn0pIgVYqLIKr8u8zogqRwlQVwXIaDg/Ds4ZJhli
+8TeVqNMKihqKnbAA2T4xfnoL4XITuTlZztAId8GOzVF6vuT99NX+Fxm8HPRn7xQa
+pqXhuYIXYxX/ELOHq4KTo9cL/yyrTK0V3qmPdU8f8L0cYKY7enxQGGr62rjWRyxe
+TFwqnvc0q8nqTyk/E33zf1cs1JOzitDbosrm8jbj0MqUFOwvK6v7fH/Xg60Bb3V4
+7sj7MPAu9AqZ+q5qfl/bMWMss3C772ndieHwwuCi513p4rZbU76T97SDTd7vRR3L
+nSXPfzzqbRDnR0qvfZD7a5YvqK/qPgZzv83m+f7tv3kq31WuKU92/9Fq1HqehXth
+JpO7Z0ZKX4nEPasro3fPd05sv7p3AHXONK495tKtS1k15VXu/cX5N0qG9BFvV01w
+HQ9+Ahg=
+=XqDK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sdierauf
+
+==================================================================
