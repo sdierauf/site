@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 var Datastore = require('nedb')
   , db = new Datastore({filename: 'data.db', autoload: true});
 
+var monkDb = 
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -56,18 +58,21 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
+/*
 
 var test = {
   name: 'Larry'
 }
+
 
 db.insert(test, function(err, newDoc) {
   if (err) {
     console.log(err);
   }
 });
+*/
 
-db.find({name: 'Larry'}, function(err, docs) {
+db.find({}, function(err, docs) {
   if (err) {
     console.log(err);
   } else {
