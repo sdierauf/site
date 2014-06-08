@@ -81,3 +81,7 @@ console.log("servers started on 1111 and 2222");
 app.get('/bashrack', function(req, res) {
 	res.send('<pre>' + store + '</pre>');
 });
+
+app.get('/music-api', function(req, res) {
+  res.json({test: "hello"});
+});
