@@ -1,0 +1,31 @@
+<!--Stefan Dierauf June 2014
+Learning some angular for the jerb -->
+<html ng-app="quickDictionary">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Simply Expenses</title>
+</head>
+<body>
+  <div ng-controller="DictCtrl as dict">
+    <fieldset>
+      <label>Search:</label>
+      <input type="text" ng-model="searchText" />
+      
+    </fieldset>
+    <div>
+      {{ searchText }}
+    </div>
+    <ul>
+      <li ng-repeat="word in dict.dict | filter:searchText" >{{ word }}</li>
+    </ul>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular.min.js"></script>
+<script src="../js/dictionary.js"></script>
+<script src="viewmodel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!-- Little finances test app to try out angularjs -->
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="my.css" rel="stylesheet">
+      <title>Simply Expenses</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="topbar" class="col-md-12">
+        <div id="signin" class="col-md-4 col-md-offset-8">
+          <input type="text" placeholder="username" id="username" />
+          <input type="text" placeholder="password" id="user-pass" />
+          <button id="signin-submit">Sign in</button>
+          <!--
+<form class="form-signin" role="form">
+            <h2 class="form-signin-heading">Please sign in</h2>
+            <input id="user-email" type="email" class="form-control" placeholder="Email address" required autofocus>
+            <input id="user-pass" type="password" class="form-control" placeholder="Password" required>
+            <button id="signin-submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+          </form>
+-->
+        </div>
+      </div>
+      <div id="userinfo" class="col-md-12">
+        <p>It worked!</p>
+      </div>
+    </div>
+  </body>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+<script src="viewmodel.js"></script>
+</html>
