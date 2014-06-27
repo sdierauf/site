@@ -1,0 +1,125 @@
+html, body { width:100%;  overflow-x:hidden; }
+
+
+#profile {
+  text-align: center;
+  /*margin-top: 2em;*/
+  margin-bottom: 1em;
+}
+
+
+
+body {
+  font-size: 13pt;
+  /* -webkit-text-stroke: 0.35px !important; */
+}
+
+.custom-container {
+  width:100%;
+}
+
+.social {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.social .list-inline li {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.75em;
+}
+
+.rowfull, .row {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-right: 0;
+  margin-left: 0;
+  color: white;
+}
+
+a, name {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #07DEFF !important;
+  text-decoration: underline !important;
+}
+
+dt a {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+
+.special-case {
+  padding-top: 0em;
+}
+
+#meblock {
+  background-color: #382C5A;
+  padding-top: 4em;
+}
+
+#codeblock {
+  background-color: #533271;
+}
+
+#workblock {
+  background-color: #2D3D67;
+}
+
+#funblock {
+  background-color: #5C2D67;
+}
+
+#linksblock {
+  background-color: #323271;
+}
+
+.mahheader {
+  margin-bottom: 0;
+  font-size: 14pt;
+}
+
+.name {
+  font-size: 20pt;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.bodypic {
+
+  vertical-align: right;
+}
+
+dt {
+  margin-top: 1em;
+}
+
+.toplinks a {
+  text-decoration: none !important;
+}
+
+h4 {
+  line-height: normal;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+
+#codeblock div div {
+  margin-bottom: 3em !important;
+}
+
+#hackathons h4, #github h4 { 
+  margin-top: 0;
+}
+
+.svbtle {
+  font-size: 11pt;
+  color: #c9c9c9;
+}
