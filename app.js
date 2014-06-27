@@ -4,8 +4,8 @@
  */
 
 var express = require('express');
-var routes = require('./routes');
-var user = require('./routes/user');
+//var routes = require('./routes');
+//var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 var compress = require('compression')();
@@ -48,10 +48,10 @@ app.get('/files/', function(req, res){
 });
 
 //get for redesign of site
-app.get('/beta', routes.index);
+//app.get('/beta', routes.index);
 //should acually try to use jade and layouts etc... looks fucking cool.
 
-app.get('/users', user.list);
+//app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
