@@ -1,0 +1,68 @@
+<html>
+    <header>
+        <title>Simply Salad</title>
+        <style>
+            body {
+                background-color: rgb(30,80,127);
+                color: white;
+                text-align: center;
+            }
+
+            #stuff {
+                margin: 0 auto;
+                margin-top: 200px;
+            }
+
+            h1 {
+                font-size: 72pt;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 20pt;
+                color: rgb(180, 180, 180);
+            }
+        </style>
+    </header>
+
+    <body>
+        <div id="stuff">
+            <h1 id="result"></h1>
+            <p id="context"><p>
+        </div>
+
+    </body>
+
+    <script>
+        function init() {
+            var req = new XMLHttpRequest();
+            req.onload = SALADATTACK;
+            req.open("GET", "http://lunches-simplymeasured.rhcloud.com/lunches", true);
+            req.send();
+        }
+
+        function SALADATTACK() {
+            //srsly why are you looking at this
+            var lunches = JSON.parse(this.responseText).lunches;
+            var todaysMenu = lunches[lunches.length - 1].menu;
+            console.log(todaysMenu);
+            for (var i = 0; i < todaysMenu.length; i++) {
+                if (isThereSalad(String(todaysMenu[i]))) {
+                    document.getElementById('result').innerHTML = "YES";
+                    document.getElementById('context').innerHTML = todaysMenu[i];
+                    return;
+                }
+            }
+            document.getElementById('result').innerHTML = "NO";
+        }
+
+        function isThereSalad(string) {
+            console.log(string);
+            return string.toLowerCase().indexOf('salad') >= 0;
+        }
+
+        init();
+
+    </script>
+    
+</html>
