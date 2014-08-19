@@ -6,7 +6,13 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "body-parser": "^1.6.5",
+    "compression": "^1.0.11",
+    "ejs": "^1.0.0",
+    "errorhandler": "^1.1.1",
     "express": "4.0.0",
-    "jade": "*"
+    "jade": "*",
+    "method-override": "^2.1.3",
+    "morgan": "^1.2.3"
   }
 }
