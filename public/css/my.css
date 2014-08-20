@@ -29,7 +29,7 @@ body {
   margin-bottom: 0.75em;
 }
 
-.rowfull, .row {
+.rowfull {
   padding-top: 3em;
   padding-bottom: 3em;
   margin-right: 0;
@@ -109,10 +109,6 @@ h1 {
   font-size: 5em;
   margin-bottom: 0.5em;
   margin-top: 0;
-}
-
-#codeblock div div {
-  margin-bottom: 3em !important;
 }
 
 #hackathons h4, #github h4 { 
