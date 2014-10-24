@@ -1,0 +1,41 @@
+Stefan Dierauf
+
+
+5008A 12th Ave NE
+Seattle, WA 98105
+
+(415) 717-9279
+
+sdierauf@gmail.com
+
+stfn.me
+github.com/sdierauf
+
+
+Profile 
+Full-stack developer and hackathon nut with a passion for mobile and web development.
+
+Experience  
+  Web Developer, UW CSE – September 2014-Present
+  Helping build and test the new CSE MyPortfolio service. Working on future tools and improvements for the CSE department.
+
+  Software Engineering Intern, Simply Measured – June 2014-September 2014
+  Built out template for bootstrapping internal tools with a node backend, angularJS front-end, complete with unit and e2e tests. Worked with complete development-to-deployment pipeline, and helped build out internally developed open-source visual regression testing tool.
+
+  Student IT Technician, UW CSE – April 2013-June 2014
+  Provided support and assistance for staff and students of the University of Washington Computer Science department. Helped maintain the CSE website front end.
+
+  Camp Counselor, DawgBytes – June 2013-August 2013
+  Taught middle and high school students how to create android apps and code for the Microsoft Gadgeteer platform using C#.
+
+  IT Technician, YWCA Portland – October 2010-July 2012
+  Co-supported and managed a network of about one hundred employees. Designed five-year office technology upgrade plan, which outlined what upgrades needed to be made in order to ensure good performance on an extremely limited budget.
+
+Education University of Washington – Computer Science major, Swedish minor. 3.63 GPA, Expected Graduation Summer 2016
+
+Activities  
+  - Proficient with Javascript/NodeJS and Java. Experience with C, Objective-C, and PHP 
+  - Participated in Dubhacks (won best use of the Dropbox API), AngelHack 2013, OUTC closing hackathon, Paypal’s BattleHack Seattle, Engineering community hackathon. 
+  - 2013 scholarship winner and attendee to Out 4 Undergrad tech conferences at Facebook.
+
+  References available on request
